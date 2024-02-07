@@ -1,0 +1,64 @@
+h1 {
+    position: relative;
+    color: rgb(226, 229, 232);
+    opacity: 0.8;
+    text-align: center;
+    margin: 40px;
+    font-size: 2.9rem;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+p {
+    position: relative;
+    color: rgb(231, 177, 244);
+    opacity: 0.7;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    max-width: 80%;
+    text-align: center;
+}
+span {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.text {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 500px;
+    animation: fadeIn 1.5s ease;
+}
+span:hover {
+    color: #f1fbd9; 
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        margin: 10px; 
+    }
+
+    p {
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+
+    .text {
+        margin-top: 370px;
+    }
+    
+    span {
+        font-size: 1rem;
+    }
+}

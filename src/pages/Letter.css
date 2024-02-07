@@ -1,0 +1,98 @@
+
+.letter-container {
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url('./b.jpg');
+}
+.rectangle {
+    position: absolute;
+    width: 80%;
+    height: 70%; 
+    opacity: 0.6; 
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+}
+.blue {
+    background-color: rgb(248, 248, 190);
+    transform: translate(-50%, -50%) rotate(-3deg);
+    border: solid 2px yellow;
+}
+
+.pink {
+    background-color: rgb(246, 125, 145);
+    transform: translate(-50%, -50%) rotate(-1deg);
+    border: solid 1.5px red;
+}
+.wish {
+    position: absolute;
+    color: rgb(5, 9, 12);
+    font-family: cursive;
+    font-size: 1.7rem;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: rotate(-2deg);
+}
+.letter {
+    color: rgb(210, 0, 0);
+    text-align: left;
+    font-family: cursive;
+    font-size: 2.3rem;
+    margin: 40px;
+}
+.head {
+    margin-top: 10px;
+}
+.greet {
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 3rem;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    top: 5%;
+    color: white;
+}
+footer {
+    font-size: 1.5rem;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    top: 82%;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 2rem;
+    }
+    footer {
+        font-size: 1rem;
+        top: 85%;
+    }
+    .wish {
+        top: 10%;
+        left: 12%;
+        right: 12%;
+        font-size: 0.9rem;
+    }
+    .letter {
+        font-size: 1.2rem;
+        margin: 13px;
+    }
+    .greet {
+        margin-bottom: 0;
+    }
+    .head {
+        margin-top: 0;
+    }
+    .starting {
+        margin-top: 15%;
+    }
+}
