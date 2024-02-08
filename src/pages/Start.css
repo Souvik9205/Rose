@@ -29,7 +29,7 @@ span {
     height: auto;
     width: 100%;
     position: relative;
-    margin-top: 500px;
+    margin-top: 60vh;
     animation: fadeIn 1.5s ease;
 }
 span:hover {
